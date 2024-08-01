@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no, email=no">
+  <title>안동시티투어 동이사람들</title>
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/common/ico_favicon.jpg" type="image/x-icon">
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+  <!--web icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="inner">
+        <div id="header_top">
+          <!--language-->
+          <ol class="language">
+            <li><a href="#">English</a></li>
+            <li><a href="#">Japanese</a></li>
+            <li><a href="#">Chinese</a></li>
+            
+          </ol>
+          <!--language_btn-->
+          <div class="language_btn">
+            <ul class="depth2">
+              <li><a href="#">English</a></li>
+              <li><a href="#">Japanese</a></li>
+              <li><a href="#">Chinese</a></li>
+            </ul>
+          </div>
+
+          <!--logo-->
+          <h1><a href="#"><img src="img/common/img_logo.svg" alt="안동시티투어"></a></h1>
+
+          <div class="util">
+            <a href="#" class="reservation">예약 &#183; 문의</a>
+            <button class="ham">햄버거버튼</button>
+          </div>
+        </div><!--.header_top-->
+
+        <!--gnb-->
+        <nav>
+          <ul class="gnb">
+            <li><a href="#">안동시티투어 안내</a>
+              <ul class="depth2">
+                <li><a href="">맛있는 여행</a></li>
+                <li><a href="">안동먹탐 여행</a></li>
+              </ul>
+            </li>
+            <li><a href="#">안동여행상품</a>
+              <ul class="depth2">
+                <li><a href="">안동당일여행</a></li>
+                <li><a href="">먹탐여행 1박 2일</a></li>
+                <li><a href="">가족여행&#38;단체관광<br>소모임 맞춤투어</a></li>
+                <li><a href="">안동래프팅</a></li>
+                <li><a href="">낙동강트레킹</a></li>
+                <li><a href="">도심 상시 순환투어</a></li>
+              </ul>
+            </li>
+            <li><a href="#">온라인예약</a>
+              <ul class="depth2">
+                <li><a href="">온라인 예약</a></li>
+                <li><a href="">예약 및 입금확인</a></li>
+                <li><a href="">이용요금</a></li>
+                <li><a href="">예약관련문의</a></li>
+                <li><a href="">견적의뢰</a></li>
+              </ul>
+            </li>
+            <li><a href="#">안동여행편의</a>
+              <ul class="depth2">
+                <li><a href="">숙박정보</a></li>
+                <li><a href="">맛집안내</a></li>
+                <li><a href="">즐길거리</a></li>
+                <li><a href="">안동특산물</a></li>
+                <li><a href="">안동관광 명소안내</a></li>
+                <li><a href="">전통문화체험</a></li>
+              </ul>
+            </li>
+            <li><a href="#">고객센터</a>
+              <ul class="depth2">
+                <li><a href="">공지사항</a></li>
+                <li><a href="">질문과 답변</a></li>
+                <li><a href="">자주묻는 질문</a></li>
+                <li><a href="">탑승장소 안내</a></li>
+                <li><a href="">안동여행사진</a></li>
+                <li><a href="">여행리뷰</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <!--mgnb-->
+        <div class="mgnb_wrap">
+          <div class="mgnb_inner">
+            <ul class="mgnb">
+              <li><a href="#">안동시티투어 안내</a>
+                <ul class="mdepth2">
+                  <li><a href="">맛있는 여행</a></li>
+                  <li><a href="">안동먹탐 여행</a></li>
+                </ul>
+              </li>
+              <li><a href="#">안동여행상품</a>
+                <ul class="mdepth2">
+                  <li><a href="">안동당일여행</a></li>
+                  <li><a href="">먹탐여행 1박 2일</a></li>
+                  <li><a href="">가족여행&#38;단체관광<br>소모임 맞춤투어</a></li>
+                  <li><a href="">안동래프팅</a></li>
+                  <li><a href="">낙동강트레킹</a></li>
+                  <li><a href="">도심 상시 순환투어</a></li>
+                </ul>
+              </li>
+              <li><a href="#">온라인예약</a>
+                <ul class="mdepth2">
+                  <li><a href="">온라인 예약</a></li>
+                  <li><a href="">예약 및 입금확인</a></li>
+                  <li><a href="">이용요금</a></li>
+                  <li><a href="">예약관련문의</a></li>
+                  <li><a href="">견적의뢰</a></li>
+                </ul>
+              </li>
+              <li><a href="#">안동여행편의</a>
+                <ul class="mdepth2">
+                  <li><a href="">숙박정보</a></li>
+                  <li><a href="">맛집안내</a></li>
+                  <li><a href="">즐길거리</a></li>
+                  <li><a href="">안동특산물</a></li>
+                  <li><a href="">안동관광 명소안내</a></li>
+                  <li><a href="">전통문화체험</a></li>
+                </ul>
+              </li>
+              <li><a href="#">고객센터</a>
+                <ul class="mdepth2">
+                  <li><a href="">공지사항</a></li>
+                  <li><a href="">질문과 답변</a></li>
+                  <li><a href="">자주묻는 질문</a></li>
+                  <li><a href="">탑승장소 안내</a></li>
+                  <li><a href="">안동여행사진</a></li>
+                  <li><a href="">여행리뷰</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <button class="mgnb_close"><i class="bi bi-x-lg"></i></button>
+        </div>
+      </div>
+    </header>
+    <!--main-->
+    <main id="main">
+      <!--main_visual-->
+      <section id="main_visual">
+        <div class="visual_control">
+          <div class="swiper-pagination"></div>
+          <div class="autoplay-progress">
+              <svg viewBox="0 0 100 10">
+                  <line x1="0" y1="0" x2="100" y2="0"></line>
+              </svg>
+          </div>
+          <div class="mb_autoplay_control">
+            <i class="bi bi-pause mb_pause"></i>
+            <i class="bi bi-play-fill mb_play"></i>
+          </div>
+        </div>
+
+        <!--main_visual_mb-->
+        <div class="swiper mb">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide mb1">
+              <img src="img/main/img_main_txt.png" alt="모바일 메인 텍스트" class="mb_txt">
+              <div class="mb_box">                
+                <div class="icon"><img src="img/main/ico_location.svg" alt="위치"></div>
+                <h2>하회마을</h2>  
+              </div>                        
+            </li>
+            <li class="swiper-slide mb2">
+              <img src="img/main/img_main_txt.png" alt="모바일 메인 텍스트" class="mb_txt">
+              <div class="mb_box">
+                <div class="icon"><img src="img/main/ico_location.svg" alt="위치"></div>
+                <h2>월영교</h2>  
+              </div> 
+            </li>
+            <li class="swiper-slide mb3">
+              <img src="img/main/img_main_txt.png" alt="모바일 메인 텍스트" class="mb_txt">
+              <div class="mb_box">
+                <div class="icon"><img src="img/main/ico_location.svg" alt="위치"></div>
+                <h2>도산서원</h2>  
+              </div> 
+            </li>
+            <li class="swiper-slide mb4">
+              <img src="img/main/img_main_txt.png" alt="모바일 메인 텍스트" class="mb_txt">
+              <div class="mb_box">
+                <div class="icon"><img src="img/main/ico_location.svg" alt="위치"></div>
+                <h2>병산서원</h2>  
+              </div> 
+            </li>
+            <li class="swiper-slide mb5">
+              <img src="img/main/img_main_txt.png" alt="모바일 메인 텍스트" class="mb_txt">
+              <div class="mb_box">
+                <div class="icon"><img src="img/main/ico_location.svg" alt="위치"></div>
+                <h2>부용대</h2>  
+              </div> 
+            </li>
+          </ul>      
+        </div>
+      </section>
+      <!--story-->
+      <section id="story">
+        <!--txt_box-->
+        <div class="txt_box">
+          <div class="txt_area">
+            <h2>안동시 이야기</h2>
+            <h3><span>성리학과 불교문화</span>의 찬란한 꽃을 피운 <span>한국 정신문화 수도</span>이자 5천년 역사의 뿌리는 간직하고 있는 <span>예(禮)</span>와 <span>학(學)</span>의 고장</h3>
+            <p>안동문화는 시대별로 편중되지 않고, 종교적으로 편향되지 않은 다양한 문화들이 온전히 전승되어 온 지역입니다.</p>
+            <p>그래서 한국에서 가장 많은 문화재를 보유한 지역이기도 하며, 동시에 동양의 미학을 고스란히 드러내는 곳이기도 합니다. 유형적 자산뿐만 아니라 무형문화재도 많아 남성대동놀이인 차전놀이, 여성대동놀이인 놋다리밟기, 화전놀이 저전논메기 소리, 내방가사, 행상소리 등 다양하게 전승되고 있습니다.</p>
+            <p>안동지역에 이렇게 풍부한 문화유산이 전승되는 것은 안동이 가진 가치 지향적 철학에서 기인합니다. 문화적 변화에 능동적으로 대처하였으며 문화수용과 계발에 적극적이었기 때문입니다.</p>
+            <p>이 결과 동양의 모든 문화가 안동에 유입되었고 유입된 이후 안동만의 가치관으로 재편성되어 꽃을 피운 것입니다. 아울러 가장 한국적인 곳이라 하여 세계문화유산에 "한국민속마을" 로 하회마을이 등재 되었으며, 1999년 영국여왕도 안동을 방한하셨습니다.</p>
+          </div>
+          <div class="txt_img"><img src="img/main/img_story_txt_img.png" alt="텍스트 이미지"></div>
+          <div class="moblie_txt_img"><img src="img/main/img_story_moblie_txt_img.png" alt="모바일"></div>
+
+          <a href="#" class="more_view"><img src="img/common/ico_more_plus_btn.svg" alt="more_view">  VIEW</a>
+        </div>
+        <!--img_box-->
+        <div class="img_box">
+          <img src="img/main/img_story_img.jpg" alt="스토리배경">
+        </div>
+      </section>
+      <!--prd-->
+      <section id="prd">
+        <h2>안동여행상품</h2>
+        <p>자연 관광지, 세계문화유산의 도시로 그대에게 안동을 선물합니다.</p>
+        <!--prd_list-->
+        <div class="swiper prd_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide prd1">
+              <div class="prd_img">
+                <img src="img/main/img_product01.jpg" alt="prd1">
+              </div>                
+              <dl>
+                <dt>안동당일여행</dt>
+                <dd class="prd_txt">권역별 테마여행 (매주 화~일)</dd>
+                  <dd class="hashtag">#하회마을  #도산서원 &#38; 예끼마을<br>#봉정사 &#38; 만휴정  #한국문화테마파크</dd>
+                  <dd><a href="#" class="btn_more">MORE<img src="img/common/ico_btn_more.svg" alt="더보기 버튼"></a></dd>
+              </dl>
+            </li>
+            <li class="swiper-slide prd2">
+              <div class="prd_img">
+                <img src="img/main/img_product02.jpg" alt="prd2">
+              </div>
+              <dl>
+                <dt>먹탐여행 1박2일</dt>
+                <dd class="prd_txt">오감으로 느끼는 안동 1박2일</dd>
+                <dd class="hashtag">#하회마을  #도산서원 &#38; 예끼마을<br> 
+                  #봉정사 &#38; 만휴정  #문경  #영덕</dd>
+                  <dd><a href="#" class="btn_more">MORE<img src="img/common/ico_btn_more.svg" alt="더보기 버튼"></a></dd>                
+              </dl>
+            </li>
+            <li class="swiper-slide prd3">
+              <div class="prd_img">
+                <img src="img/main/img_product03.jpg" alt="prd3">
+              </div>
+              <dl>
+                <dt>가족여행&#38;단체관광<br>소모임 맞춤투어</dt>
+                <dd class="prd_txt">교육&#183;연수 및 당일 단체 맞춤투어</dd>
+                <dd class="hashtag">#우리만을 위한 맞춤여행  #교육&#183;연수<br>
+                #전문문화해설 가이드</dd>
+                <dd><a href="#" class="btn_more">MORE<img src="img/common/ico_btn_more.svg" alt="더보기 버튼"></a></dd>
+              </dl>
+            </li>
+          <li class="swiper-slide prd4">
+              <div class="prd_img">
+                <img src="img/main/img_product04.jpg" alt="prd4">
+              </div>
+              <dl>
+                <dt>안동래프팅</dt>
+                <dd class="prd_txt">뛰어난 자연 경관과 함께하는 레포츠</dd>
+                <dd class="hashtag">#봉화청량산  #낙동강생태체험<br>
+                #레크리에이션  #펜션</dd>
+                <dd><a href="#" class="btn_more">MORE<img src="img/common/ico_btn_more.svg" alt="더보기 버튼"></a></dd>
+              </dl>
+            </li>
+            <li class="swiper-slide prd5">
+              <div class="prd_img">
+                <img src="img/main/img_product05.jpg" alt="prd5">
+              </div>
+              <dl>
+                <dt>낙동강트레킹</dt>
+                <dd class="prd_txt">낙동강 트레킹과 생태탐방</dd>
+                <dd class="hashtag">#퇴계오솔길  #고산정<br>
+                #낙동강생태학습관  #하회마을</dd>
+                <dd><a href="#" class="btn_more">MORE<img src="img/common/ico_btn_more.svg" alt="더보기 버튼"></a></dd>
+              </dl>
+            </li>
+            <li class="swiper-slide prd6">
+              <div class="prd_img">
+                <img src="img/main/img_product06.jpg" alt="prd6">
+              </div>
+              <dl>
+                <dt>도심 상시 순환투어</dt>
+                <dd class="prd_txt">도심순환형과 야경투어(매주 금~일)</dd>
+                <dd class="hashtag">#월영교  #낙강물길공원&#38;안동댐 정상<br>#낙동강생태학습관  #하회마을</dd>
+                <dd><a href="#" class="btn_more">MORE<img src="img/common/ico_btn_more.svg" alt="더보기 버튼"></a></dd>
+              </dl>
+            </li>
+          </ul>
+          <!--prd_swiper-->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+        </div>       
+      </section>
+      <!--gallery-->
+      <section id="gallery">
+        <h2>갤러리</h2>
+        <p>안동의 다양한 모습을 안동시티투어와 함께 만나보세요.</p>
+        <a href="#" class="btn_more">MORE<img src="img/common/ico_btn_more.svg" alt="더보기 버튼"></a>
+        <!--gallery_list-->
+        <div class="swiper gallery_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide gallery01">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery01.jpg" alt="봉정사만휴정">
+                  </div>              
+                  <p>#봉정사&#38;만휴정</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery02">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery02.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery03">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery03.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery04">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery04.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery05">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery05.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery06">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery06.jpg" alt="봉정사만휴정">
+                  </div>              
+                  <p>#봉정사&#38;만휴정</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery07">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery07.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery08">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery08.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery09">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery09.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery10">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery10.jpg" alt="봉정사만휴정">
+                  </div>              
+                  <p>#봉정사&#38;만휴정</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery11">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery11.jpg" alt="안동금소마을">
+                  </div>              
+                  <p>#안동금소마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery12">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery12.jpg" alt="낙동강 트레킹">
+                  </div>              
+                  <p>#낙동강 트레킹</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery13">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery13.jpg" alt="봉정사만휴정">
+                  </div>              
+                  <p>#봉정사&#38;만휴정</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery14">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery14.jpg" alt="하회마을">
+                  </div>              
+                  <p>#하회마을</p>
+               </a>            
+             </div>
+            </li>
+            <li class="swiper-slide gallery15">
+              <div class="gallery_img_box">
+                <a href="#">
+                  <div class="gallery_photo">
+                    <img src="img/main/img_gallery15.jpg" alt="도산서원">
+                  </div>              
+                  <p>#도산서원</p>
+               </a>            
+             </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--notice-->
+      <section id="notice">
+        <div class="inner">
+          <h2>안동시티투어 안내</h2>
+          <div class="container">
+            <!--notice_box-->
+            <div class="notice_box">
+              <div class="notice_name">
+                <div class="active">공지사항</div>
+                <div>여행리뷰</div>
+              </div>
+              <div class="notice_txt">
+                <div class="content01">
+                  <!--announcement-->
+                  <div class="announcement">
+                    <a href="#">
+                      <h3>[공지사항]6월 여행가는 달 할인 이벤트</h3>
+                      <p>안동시티투어 6월 여행가는 날 '인생샷' 코스인 봉정사&만휴정 코스 1만원 할인 이벤트진행 합니다.</p>
+                      <p class="date">2024-05-21</p>
+                    </a>                     
+                  </div>
+                  <div class="announcement">
+                    <a href="#">
+                      <h3>스포츠 테마파크 「놀팍」, 4월 5일 오픈 - 안동형</h3>
+                      <p>경북권 최초의 디지털 스포츠 테마파크(이하 놀팍)가 6개월여의 준비기간을 거쳐 4월 5일 시민들에게 선보인다.</p>
+                      <p class="date">2024-04-02</p>
+                    </a>                      
+                  </div>
+                  <div class="announcement">
+                    <a href="#">
+                      <h3>KTX 이음타고 할인금액으로 안동시티투어</h3>
+                      <p>*필독 : 코레일 홈피 예약하기에서 빨강색으로 마감 된 날짜 예약 할 경우 054-639-2109 로 전화하셔서 예약하시면 됩니다.한국철도대구경북본부와 안동시티투어 업무협약으로 보다 더 저렴하고 편안한 여행을 준비 하였습니다. 많은 이용바랍니다.</p>
+                      <p class="date">2024-02-22</p>
+                    </a>                      
+                  </div>                                  
+                </div>
+                <div class="content02">
+                  <!--review-->
+                  <div class="review">
+                    <a href="#">
+                      <h3>Today we had a wonderful tour with Andong City Tour.</h3>
+                      <p>*This tour is in Korean, but supported by English information videos played in the bus before each stop, so you can understand some background.</p>
+                      <p class="date">2024-06-13</p>
+                    </a>                      
+                  </div>
+                  <div class="review">
+                    <a href="#">
+                      <h3>강추 강추 강강강추 합니다</h3>
+                      <p>3월에 봉정사 템플스테이 갔다가 하루 더 머물렀는데 안동은 뚜벅이는 여행하기 힘든곳이더군요. 그래서 검색해 알아본곳이 여기 안동시티투어였습니다. 혼자 쭈굴모드로 합류 했고 사장님이 직접 가이드 해주셨는데 해박한 지식 유머 사진기술 모든걸 갖춘 최고의 전문가 였습니다.</p>
+                      <p class="date">2024-06-03</p>
+                    </a>                      
+                  </div>
+                  <div class="review">
+                    <a href="#">
+                      <h3>봉정사 만휴정 코스, 짱입니다.</h3>
+                      <p>지난 2월초순, 도산서원 코스를 다녀오고 다음에 다시 안동에 와서 시티투어 이용하겠다는 약속을 지켰습니다. !! 4월10일, 봉정사 만휴정 코스를 다녀왔습니다.</p>
+                      <p class="date">2024-02-22</p>
+                    </a>                      
+                  </div>                  
+                </div>
+              </div>
+              <a href="#" class="btn_more">더보기버튼</a>
+            </div>
+            <!--youtube-->
+            <div class="youtube">
+              <h3>유튜브</h3>
+              <p>유튜브를 통해 만나볼 수 있는<br>안동 먹탐여행!</p>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PvoRPJwcx-E?si=Wg0MYNI3E4jqc7II" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <a href="#" class="btn_more">더보기버튼</a>
+            </div>
+          </div>
+        </div>        
+      </section>
+      <!--sub_visual-->
+      <section id="sub_visual">
+        <div class="inner">
+          <div class="sub_txt">
+            <h3>한국을 담다,</h3>
+            <h2>안동시티투어</h2>
+            <img src="img/common/ico_andong_logo.svg" alt="안동시로고">
+          </div>
+          <!--quick_link-->          
+          <ul class="quick_link">
+            <li>
+              <a href="#">
+                <img src="img/main/ico_sub_visual_icon01.png" alt="오시는길">
+                <img src="img/main/ico_sub_visual_icon01_b.png" alt="오시는길" class="hover">
+                <p>오시는길</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/main/ico_sub_visual_icon02.png" alt="온라인예약">
+                <img src="img/main/ico_sub_visual_icon02_b.png" alt="온라인예약" class="hover">
+                <p>온라인예약</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/main/ico_sub_visual_icon03.png" alt="탑승장소">
+                <img src="img/main/ico_sub_visual_icon03_b.png" alt="탑승장소" class="hover">
+                <p>탑승장소</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/main/ico_sub_visual_icon04.png" alt="자주하는 질문">
+                <img src="img/main/ico_sub_visual_icon04_b.png" alt="자주하는 질문" class="hover">
+                <p>자주하는 질문</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/main/ico_sub_visual_icon05.png" alt="질문과 답변">
+                <img src="img/main/ico_sub_visual_icon05_b.png" alt="자주하는 질문" class="hover">
+                <p>질문과 답변</p>
+              </a>
+            </li>
+          </ul>
+        </div>        
+      </section>
+      <!--bottom_info-->
+      <section id="bottom_info">
+        <h2>bottom_info</h2>
+        <!--bottom_list-->
+        <div class="swiper bottom_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                안동시청
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                안동관광정보센터
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                안동시티투어
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                이육사문화관
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                주식회사 탁촌장
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                안동공예조합
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                안동인안동찜닭
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                소옥 위즈
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                안동포정보화마을
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                목석원
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#" class="link_button">
+                안동을 담다
+              </a>
+            </li>                
+          </ul>
+          <!--bottom_control-->
+          <div class="bottom_control">
+            <div class="swiper-button-prev"></div>
+            <i class="bi bi-pause-circle bottom_pause"></i>
+            <i class="bi bi-play-circle bottom_play"></i>
+            <div class="swiper-button-next"></div>
+            </div>          
+         </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer id="footer">
+      <!--footer_top-->
+      <div class="footer_top">
+        <div class="footer_content">
+          <!--f_link-->
+          <ul class="f_link">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이메일주소무단수집거부</a></li>
+            <li><a href="#">관리자</a></li>
+          </ul>
+          <!--f_sns-->
+          <ul class="f_sns">
+            <li><a href="#"><img src="img/main/ico_facebook.png" alt="페이스북"></a></li>
+            <li><a href="#"><img src="img/main/ico_blog.png" alt="네이버 블로그"></a></li>
+            <li><a href="#"><img src="img/main/ico_instagram.png" alt="인스타그램"></a></li>
+          </ul>
+        </div>        
+      </div>
+      <div class="inner">
+        <!--footer_bottom-->
+        <div class="footer_bottom">
+          <h1><img src="img/common/img_f_logo.svg" alt="안동시티투어"></h1>
+          <!--f_content-->
+          <div class="f_content">
+            <!--address-->
+            <address>
+              <!--f_txt01-->
+              <div class="f_txt01">
+                <div class="address">
+                  주소 :<span>760-300 경상북도 안동시 송현동 경동로 130 (송현동 713-6) (주)안동터미널 2층 안동시티투어 동이사람들</span>
+                </div>
+                <div class="rep">대표 :<span>권혁대</span></div>
+              </div>
+              <!--f_txt02-->
+              <div class="f_txt02">
+                <div class="registration">
+                  관광사업등록 <span>제26004-2016-000001호:</span>
+                </div>
+                <div class="sale_reg">
+                  통신판매업등록 :<span>제2012-경북안동-0029호</span>
+                </div>
+                <div class="business_number">
+                  사업자등록번호 :<span>508-05-94351</span>
+                </div>
+              </div>
+              <div class="responsible">
+                개인정보관리 책임자 :<span>권혁대</span>
+              </div>
+              <!--f_txt03-->              
+            </address>
+            <div class="f_txt03">
+              <p>관광문의 di6873@hanmail.net  <a href="010-3507-4859" style="color: #AFA9A7;"><span>010-3507-4859</span></a> (대표:권혁대)</p>
+              <p class="copy">COPYRIGHT ⓒ GBTOUR ALL RIGHTS RESERVED.</p>
+            </div>            
+          </div>          
+        </div>
+      </div>
+    </footer>
+    <!--fixed contents-->
+    <a href="#" class="go_reservation">예약하기</a>
+    <a href="#" class="go_top">위로</a>
+  </div>
+
+  <!--js-->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

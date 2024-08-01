@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Kim jung chul Myungjo';
+  src: url('../font/KimjungchulMyungjo-Bold.woff2') format('woff2'),
+      url('../font/KimjungchulMyungjo-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kim jung chul Myungjo';
+  src: url('../font/KimjungchulMyungjo-Light.woff2') format('woff2'),
+      url('../font/KimjungchulMyungjo-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kim jung chul Myungjo';
+  src: url('../font/KimjungchulMyungjo-Regular.woff2') format('woff2'),
+      url('../font/KimjungchulMyungjo-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JejuHallasan';
+  src: url('../font/JejuHallasan.woff2') format('woff2'),
+      url('../font/JejuHallasan.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
